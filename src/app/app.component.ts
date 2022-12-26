@@ -17,7 +17,7 @@ import { NewsService } from './services/news.service';
 export class AppComponent implements AfterViewInit, OnInit {
   title = 'NewsApp';
   sources: any = [];
-  articles: any = [];
+  articles:any=[];
   selectedNewsChannel:string = 'The Top Trend'
   @ViewChild(MatSidenav) sideNav!: MatSidenav;
 
